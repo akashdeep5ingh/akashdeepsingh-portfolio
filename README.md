@@ -48,6 +48,10 @@ Internal DNS and HTTP server
 
 Employee, IT, and Guest user networks
 
+![Network Topology](images/topology.png)
+
+*Figure 1 – Segmented Helpdesk Network Topology*
+
 🗂 VLAN Architecture
 VLAN	Role	Subnet
 10	Employee	192.168.10.0/24
@@ -56,6 +60,9 @@ VLAN	Role	Subnet
 50	Server	192.168.50.0/24
 
 VLAN segmentation improves security and limits unnecessary network access between departments.
+![VLAN Configuration](images/vlan.png)
+
+*Figure 2 – VLAN Segmentation and Port Assignment*
 
 🌐 Core Services
 
@@ -66,6 +73,10 @@ DNS: Internal name resolution (helpdesk.local)
 HTTP: Internal Helpdesk web portal hosted on the server
 
 Employees and IT staff can access the helpdesk portal using a domain name instead of an IP address.
+
+![Helpdesk Portal Working](images/helpdesk_working.png)
+
+*Figure 3 – Employee Access to Helpdesk Portal via Domain Name*
 
 🔐 Security Controls
 
@@ -85,8 +96,16 @@ Web service running
 
 Name resolution failed
 
+![DNS Resolution Failure](images/dns_failure.png)
+
+*Figure 4 – Simulated DNS Resolution Failure*
+
 Resolution:
 The DNS record was restored, immediately recovering access.
+
+![Helpdesk Access via IP](images/dns_restored.png)
+
+*Figure 5 – Helpdesk Portal Accessible via IP Address After Troubleshooting*
 
 🧠 Skills Demonstrated
 
