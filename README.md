@@ -27,15 +27,87 @@ Computer Systems Networking graduate with hands-on experience building and troub
 ---
 
 ## 📂 Projects
-
-### 🔹 VLAN Network Segmentation Lab
-Designed and configured multiple VLANs with inter-VLAN routing to simulate an enterprise network environment.
-
 ### 🔹 Help Desk Troubleshooting Simulation
-Diagnosed and resolved common system connectivity, IP, and configuration issues using structured troubleshooting methodology.
+🏢 Segmented Helpdesk Network (Cisco Packet Tracer)
+📌 Project Summary
 
-### 🔹 Office Network Topology Design
-Built a complete small-office network including router, switches, and clients with proper IP addressing and testing.
+Designed and implemented a small enterprise-style office network with a centralized Helpdesk web service.
+The network is segmented using VLANs and secured with access control policies to separate Employees, IT Support, Guests, and Servers.
+
+This project demonstrates practical networking, security, and troubleshooting skills using Cisco Packet Tracer.
+
+🧱 Network Design
+
+The network includes:
+
+Router-on-a-Stick for inter-VLAN routing
+
+Layer-2 switch with multiple VLANs
+
+Internal DNS and HTTP server
+
+Employee, IT, and Guest user networks
+
+🗂 VLAN Architecture
+VLAN	Role	Subnet
+10	Employee	192.168.10.0/24
+20	IT Support	192.168.20.0/24
+30	Guest	192.168.30.0/24
+50	Server	192.168.50.0/24
+
+VLAN segmentation improves security and limits unnecessary network access between departments.
+
+🌐 Core Services
+
+DHCP: Centralized IP assignment for all VLANs
+
+DNS: Internal name resolution (helpdesk.local)
+
+HTTP: Internal Helpdesk web portal hosted on the server
+
+Employees and IT staff can access the helpdesk portal using a domain name instead of an IP address.
+
+🔐 Security Controls
+
+An ACL was implemented to block Guest VLAN access to the Server VLAN while allowing internal users to reach business services.
+
+This simulates real-world guest network isolation commonly used in enterprise environments.
+
+🛠 Troubleshooting Scenario
+
+A simulated DNS failure was introduced by removing the DNS record for the helpdesk portal.
+
+Diagnosis:
+
+Server reachable by IP
+
+Web service running
+
+Name resolution failed
+
+Resolution:
+The DNS record was restored, immediately recovering access.
+
+🧠 Skills Demonstrated
+
+VLAN configuration and segmentation
+
+Inter-VLAN routing (Router-on-a-Stick)
+
+DHCP and DNS services
+
+Web server hosting
+
+ACL-based security
+
+Network troubleshooting and root-cause analysis
+
+🔚 Conclusion
+
+This project demonstrates the ability to design, secure, and troubleshoot a segmented enterprise network while supporting internal business services.
+The lab reflects real-world scenarios relevant to IT Support, NOC, and Junior Network Administrator roles.
+
+
 
 ---
 
