@@ -35,11 +35,11 @@ Seeking an entry-level IT / Networking / Help Desk position where I can apply te
 ⛽ Retail Gas Station Network (Simulated) — Secure VLAN Design
 📌 Project Overview
 
-This project simulates a secure network design for a retail gas station environment. The network is segmented to isolate Point-of-Sale (POS) systems from Office systems, Security Cameras, and Guest Wi-Fi.
+*This project simulates a secure network design for a retail gas station environment. The network is segmented to isolate Point-of-Sale (POS) systems from Office systems, Security Cameras, and Guest Wi-Fi.
 
-The design focuses on protecting sensitive payment systems while allowing necessary internal communication and controlled guest access.
+*The design focuses on protecting sensitive payment systems while allowing necessary internal communication and controlled guest access.
 
-The lab was built using Cisco Packet Tracer to demonstrate practical enterprise networking and security concepts.
+*The lab was built using Cisco Packet Tracer to demonstrate practical enterprise networking and security concepts.
 
 🧱 Network Topology
 
@@ -48,13 +48,13 @@ Figure 1 – Retail Gas Station Network Topology
 
 The network consists of:
 
-One router providing inter-VLAN routing
+*One router providing inter-VLAN routing
 
-One Layer-2 switch for access connectivity
+*One Layer-2 switch for access connectivity
 
-POS terminals, Office systems, and Camera devices
+*POS terminals, Office systems, and Camera devices
 
-A Guest Wi-Fi segment connected through a wireless router
+*A Guest Wi-Fi segment connected through a wireless router
 
 🗂 VLAN Segmentation
 
@@ -63,11 +63,11 @@ Figure 2 – VLAN Segmentation and Port Assignment
 
 VLANs were created to logically separate devices based on business function:
 
-VLAN	Purpose	Subnet
-10	POS	192.168.10.0/24
-20	Office	192.168.20.0/24
-30	Cameras	192.168.30.0/24
-40	Guest Wi-Fi	192.168.40.0/24
+*VLAN	Purpose	Subnet
+*10	POS	192.168.10.0/24
+*20	Office	192.168.20.0/24
+*30	Cameras	192.168.30.0/24
+*40	Guest Wi-Fi	192.168.40.0/24
 
 This segmentation reduces broadcast traffic and prevents unauthorized access between network zones.
 
@@ -88,11 +88,11 @@ An Access Control List (ACL) was applied to the Guest VLAN to block access to PO
 
 Security Policy:
 
-Guest Wi-Fi users must not access POS devices
+*Guest Wi-Fi users must not access POS devices
 
-POS systems remain isolated from public traffic
+*POS systems remain isolated from public traffic
 
-Testing confirms that Guest devices are unable to reach POS systems, validating correct ACL enforcement.
+*Testing confirms that Guest devices are unable to reach POS systems, validating correct ACL enforcement.
 
 🔒 Switch Port Security
 
@@ -105,19 +105,19 @@ This prevents rogue devices from being connected to critical payment infrastruct
 
 🧠 Skills Demonstrated
 
-VLAN creation and port assignment
+*VLAN creation and port assignment
 
-Trunking and Router-on-a-Stick
+*Trunking and Router-on-a-Stick
 
-Inter-VLAN routing verification
+*Inter-VLAN routing verification
 
-DHCP configuration across multiple VLANs
+*DHCP configuration across multiple VLANs
 
-ACL-based network security
+*ACL-based network security
 
-Endpoint protection using switch port security
+*Endpoint protection using switch port security
 
-Business-driven network design for retail environments
+*Business-driven network design for retail environments
 
 🔚 Conclusion
 
@@ -138,13 +138,13 @@ This project demonstrates practical networking, security, and troubleshooting sk
 
 The network includes:
 
-Router-on-a-Stick for inter-VLAN routing
+*Router-on-a-Stick for inter-VLAN routing
 
-Layer-2 switch with multiple VLANs
+*Layer-2 switch with multiple VLANs
 
-Internal DNS and HTTP server
+*Internal DNS and HTTP server
 
-Employee, IT, and Guest user networks
+*Employee, IT, and Guest user networks
 
 ![Network Topology](images/Topology.png)
 
@@ -164,13 +164,13 @@ VLAN segmentation improves security and limits unnecessary network access betwee
 
 🌐 Core Services
 
-DHCP: Centralized IP assignment for all VLANs
+*DHCP: Centralized IP assignment for all VLANs
 
-DNS: Internal name resolution (helpdesk.local)
+*DNS: Internal name resolution (helpdesk.local)
 
-HTTP: Internal Helpdesk web portal hosted on the server
+*HTTP: Internal Helpdesk web portal hosted on the server
 
-Employees and IT staff can access the helpdesk portal using a domain name instead of an IP address.
+*Employees and IT staff can access the helpdesk portal using a domain name instead of an IP address.
 
 ![Helpdesk Portal Working](images/helpdesk_working.png)
 
@@ -188,11 +188,11 @@ A simulated DNS failure was introduced by removing the DNS record for the helpde
 
 Diagnosis:
 
-Server reachable by IP
+*Server reachable by IP
 
-Web service running
+*Web service running
 
-Name resolution failed
+*Name resolution failed
 
 ![DNS Resolution Failure](images/dns_failure.png)
 
@@ -207,17 +207,17 @@ The DNS record was restored, immediately recovering access.
 ---
 🧠 Skills Demonstrated
 
-VLAN configuration and segmentation
+*VLAN configuration and segmentation
 
-Inter-VLAN routing (Router-on-a-Stick)
+*Inter-VLAN routing (Router-on-a-Stick)
 
-DHCP and DNS services
+*DHCP and DNS services
 
-Web server hosting
+*Web server hosting
 
-ACL-based security
+*ACL-based security
 
-Network troubleshooting and root-cause analysis
+*Network troubleshooting and root-cause analysis
 
 🔚 Conclusion
 
@@ -230,7 +230,7 @@ The lab reflects real-world scenarios relevant to IT Support and Junior Network 
 🌐 Web Development & Website Management Projects
 1️⃣ Washing Go Detailing
 
-🔗 https://washngodetailing.ca
+ https://washngodetailing.ca
 
 Role: Website Designer & Manager
 Technologies: WordPress, HTML, CSS, SEO
@@ -247,7 +247,7 @@ Ensured website security, performance optimization, and ongoing maintenance.
 
 2️⃣ Serene Studioz
 
-🔗 https://serenestudioz.com/
+ https://serenestudioz.com
 
 Role: Website Developer
 Technologies: WordPress, HTML, CSS
@@ -264,7 +264,7 @@ Assisted with domain setup and website deployment.
 
 3️⃣ Zander Gill
 
-🔗 https://zandergill.com/
+  https://zandergill.com
 
 Role: Web Developer
 Technologies: WordPress, HTML, CSS
@@ -284,19 +284,19 @@ Note: some parts are not ready yet but can be done once I will get response for 
 
 🧠 Skills Demonstrated
 
-Website Design & Deployment
+*Website Design & Deployment
 
-WordPress Development & Customization
+*WordPress Development & Customization
 
-HTML & CSS
+*HTML & CSS
 
-SEO Optimization (On-page)
+*SEO Optimization (On-page)
 
-Responsive Design
+*Responsive Design
 
-Website Security & Maintenance
+*Website Security & Maintenance
 
-Client-focused Requirements Gathering
+*Client-focused Requirements Gathering
 
 ---
 
