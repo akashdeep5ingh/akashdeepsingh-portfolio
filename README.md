@@ -302,6 +302,13 @@ Note: some parts are not ready yet but can be done once I will get response for 
 
 ---
 
+CERTIFICATIONS
+• Cisco – Cybersecurity Essentials badge: https://
+www.credly.com/badges/09f68c36-c061-4631-
+a34d-9695e56555b6/public_url
+
+• CCNA (In Progress)
+
 ## 📫 Contact
 - Email: akashdeepsinghjgn15@gmail.com
 - Phone: 437-833-3515
