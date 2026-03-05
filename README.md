@@ -228,6 +228,8 @@ The lab reflects real-world scenarios relevant to IT Support and Junior Network 
 ---
 
 🌐 Web Development & Website Management Projects
+---
+
 1️⃣ Washing Go Detailing
 
  https://washngodetailing.ca
